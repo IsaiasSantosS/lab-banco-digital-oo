@@ -29,7 +29,10 @@ public abstract class Conta implements IConta {
 	}
 
 	@Override
-	public void transferir(double valor, IConta contaDestino) {
+	public void transferir(double valor, IConta contaDestino) throws Exception {
+        if (valor > saldo) {
+            throw new Exception("Saldo Insuficiente.");
+        }
 		this.sacar(valor);
 		contaDestino.depositar(valor);
 	}
