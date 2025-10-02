@@ -1,3 +1,5 @@
+package com.isaiassantos.model;
+
 import java.util.List;
 
 public class Banco {

@@ -1,3 +1,4 @@
+package com.isaiassantos.interfaces;
 
 public interface IConta {
 	

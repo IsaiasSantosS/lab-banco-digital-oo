@@ -1,3 +1,4 @@
+package com.isaiassantos.model;
 
 public class Cliente {
 

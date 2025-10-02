@@ -1,3 +1,6 @@
+package com.isaiassantos.model;
+
+import com.isaiassantos.interfaces.IConta;
 
 public abstract class Conta implements IConta {
 	
